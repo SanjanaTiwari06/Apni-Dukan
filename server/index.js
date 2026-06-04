@@ -8,11 +8,11 @@ const Router = require("./routes");
 
 const app = express();
 
+const cors = require("cors");
+
 app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://apni-dukan-roan.vercel.app"
-  ]
+  origin: true,
+  credentials: true
 }));
 
 app.use(express.json());
