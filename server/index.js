@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://e-commerce-website-apni-dukan-2w7p.vercel.app/"
+    "https://apni-dukan-roan.vercel.app/"
   ]
 }));
 
