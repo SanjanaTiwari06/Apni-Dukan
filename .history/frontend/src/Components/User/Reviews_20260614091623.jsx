@@ -27,10 +27,10 @@ export default function Reviews() {
             dispatch(getTestimonial())
             if (TestimonialStateData.length) {
                 setReviews(
-                    TestimonialStateData.filter(
-                        x => x.user?._id === localStorage.getItem("userid")
-                    )
-                )
+  TestimonialStateData.filter(
+    x => x.user?._id === localStorage.getItem("userid")
+  )
+)
             }
         })()
     }, [TestimonialStateData.length])

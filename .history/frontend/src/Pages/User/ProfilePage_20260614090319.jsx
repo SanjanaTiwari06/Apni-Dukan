@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-
+/* eslint-disable react-hooks/set-state-in-effect */
 import React, { useEffect, useState } from 'react'
 import Breadcrum from '../../Components/Breadcrum'
 // import Dashboard from '../../Components/User/Dashboard'
