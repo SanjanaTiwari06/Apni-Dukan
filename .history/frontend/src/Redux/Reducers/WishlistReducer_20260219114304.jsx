@@ -1,4 +1,3 @@
-/* eslint-disable no-case-declarations */
 import { CREATE_WISHLIST_RED, DELETE_WISHLIST_RED, GET_WISHLIST_RED, UDPATE_WISHLIST_RED } from "../Constant"
 export default function WishlistReducer(state = [], action) {
     switch (action.type) {
